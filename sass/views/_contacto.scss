@@ -1,0 +1,30 @@
+.uno{
+  @include fondo(azul);
+  color: white;
+}
+.dos{
+  @include fondo(naranja);
+  color: white;
+}
+
+.btn {
+    width: 100px;
+    text-align: center;
+    padding: 5px 0;
+    margin: 2px auto;
+    border-radius: 2px;
+    color: #FFFFFF;
+  }
+  
+  .btn-dark {
+    @extend .btn;
+    background-color: #108EFF;
+  }
+  .btn-secondary {
+    @extend .btn;
+    background-color: #FF8516;
+  }
+  .btn-cancel {
+    @extend .btn;
+    background-color: #D61E20;
+  }
