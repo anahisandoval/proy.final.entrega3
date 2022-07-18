@@ -29,7 +29,7 @@
                     </button>   
                     <a class="navbar-brand" href="#!">FM Terra</a>                           
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                      <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                      <ul class="navbar-nav mr-auto mt-2 mt-md-0 box_nav">
                           <li class="nav-item" data-toggle="tooltip" data-placement="nav-item" title="Ir a inicio">
                               <a class="nav-link" href="index.html">Inicio <span class="sr-only"></span></a>
                           </li>
@@ -53,7 +53,7 @@
                 </nav>
             </div>
             <div class="col-4 col-md-4 col-lg-4 col-xl-2 mb-2">
-              <div class="clima" id="cont_37912bfb6ed0095af2fc37614cd9ab62"><script type="text/javascript" async src="https://www.meteored.com.ar/wid_loader/37912bfb6ed0095af2fc37614cd9ab62"></script></div>
+                <!-- weather widget start --><a class="clima" target="_blank" href="https://hotelmix.es/weather/rio-grande-41434"><img src="https://w.bookcdn.com/weather/picture/23_41434_1_4_34495e_250_2c3e50_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=2&domid=582&anc_id=99149"  alt="booked.net"/></a><!-- weather widget end -->
             </div>
         </div>
     </div>
@@ -63,7 +63,7 @@
     <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4">
       <img id="micro" src="./imagenes/vj-radio-microphone.png" class="img-fluid" alt="Responsive image">
     </div>
-    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 dos">
+    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 cuatro">
       <form>
         <div class="form-group">
           <label for="formGroupExampleInput">Asunto</label>
@@ -82,9 +82,9 @@
           <textarea class="form-control" id="formGroupExampleInput" placeholder="Escribí tu nombre" rows="5" cols="40"></textarea>
         </div>
         <div class="form-group">
-          <button type="button" class="btn btn-dark">Enviar mensaje</button>
-          <button type="button" class="btn btn-cancel">Cancelar</button>
-          <button type="button" class="btn btn-secondary">Limpiar</button>
+          <button type="submit" class="btn btn-dark">Enviar mensaje</button>
+          <button type="camcel" class="btn btn-cancel">Cancelar</button>
+          <button type="cancel" class="btn btn-secondary">Limpiar</button>
        </div>
 
       </form>
@@ -111,6 +111,25 @@
 </footer>
 
 </div>
-
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+  </script>
 </body>
 </html>

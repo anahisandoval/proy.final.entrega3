@@ -1,9 +1,20 @@
 .uno{
-  @include fondo(azul);
+  @include fondo(color1);
   color: white;
 }
+
 .dos{
-  @include fondo(naranja);
+  @include fondo(color2);
+  color: white;
+}
+
+.tres{
+  @include fondo(color3);
+  color: white;
+}
+
+.cuatro{
+  @include fondo(color4);
   color: white;
 }
 
@@ -18,13 +29,13 @@
   
   .btn-dark {
     @extend .btn;
-    background-color: #108EFF;
+    background-color: #0573d3;
   }
   .btn-secondary {
     @extend .btn;
-    background-color: #FF8516;
+    background-color: #f05b17;
   }
   .btn-cancel {
     @extend .btn;
-    background-color: #D61E20;
+    background-color: #f33639;
   }

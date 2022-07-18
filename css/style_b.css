@@ -9,13 +9,13 @@ body{
 }
 
 header{
-    background: linear-gradient(to left,rgb(2, 81, 83),rgb(12, 110, 128),rgb(6, 146, 151),rgb(79, 243, 120),rgb(139, 196, 8));
+    background: linear-gradient(to left,#025153,#0c6e80,#069297,#4ff378,#8bc408);
     padding-top: 2em;
     padding-bottom: 2em;
 }
 
 footer{
-    background: linear-gradient(to left,rgb(2, 81, 83),rgb(12, 110, 128),rgb(6, 146, 151),rgb(79, 243, 120),rgb(139, 196, 8));
+    background: linear-gradient(to left,#025153,#0c6e80,#069297,#4ff378,#8bc408);
 }
 #logo{
     width: 8em;
