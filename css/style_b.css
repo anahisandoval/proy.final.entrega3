@@ -5,7 +5,9 @@ html{
   font-family: 'Poppins', sans-serif;
 }
 body{
-  font-size: 1em;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
 }
 
 header{
@@ -47,6 +49,12 @@ footer{
     animation-name: backInRight;
     animation-duration:2s;
     animation-iteration-count: initial;
+}
+.powerby{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    background-color: black ;
 }
 
 @media screen and (min-width: 551px) and (max-width: 1200px) {
