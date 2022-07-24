@@ -7,9 +7,9 @@ html{
   font-family: 'Poppins', sans-serif;
 }
 body{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
-    grid-template-rows: auto 2fr auto;
 }
 
 header{
@@ -20,10 +20,6 @@ header{
 
 footer{
     background: linear-gradient(to left,#025153,#0c6e80,#069297,#4ff378,#8bc408);
-    position:relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
 }
 #logo{
     width: 8em;
