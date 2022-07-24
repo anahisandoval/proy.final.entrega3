@@ -76,5 +76,8 @@ footer{
     .clima{
         display: none;
     }
+    footer{
+        position: fixed;
+    }
 }
 
