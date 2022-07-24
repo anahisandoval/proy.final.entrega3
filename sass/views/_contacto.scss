@@ -1,20 +1,28 @@
 .uno{
   @include fondo(color1);
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: white;
 }
 
 .dos{
   @include fondo(color2);
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: white;
 }
 
 .tres{
   @include fondo(color3);
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: white;
 }
 
 .cuatro{
   @include fondo(color4);
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: white;
 }
 

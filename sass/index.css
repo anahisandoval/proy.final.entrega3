@@ -2,21 +2,29 @@
 /*Fuentes*/
 .uno {
   background-color: #025153;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: white;
 }
 
 .dos {
   background-color: #0c6e80;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: white;
 }
 
 .tres {
   background-color: #069297;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: white;
 }
 
 .cuatro {
   background-color: #50db26;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: white;
 }
 
