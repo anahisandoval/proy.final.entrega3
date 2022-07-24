@@ -1,16 +1,17 @@
 /*importación de fuentes*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,200;1,800;1,900&display=swap');
 
-html{
-    margin: 0%;
-    padding: 0%;
-  font-family: 'Poppins', sans-serif;
-}
-body{
-    display: flex;
-    flex-direction: column;
+html {
     min-height: 100vh;
-}
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+    min-height: 100vh;
+  }
 
 header{
     background: linear-gradient(to left,#025153,#0c6e80,#069297,#4ff378,#8bc408);
@@ -75,9 +76,6 @@ footer{
     }
     .clima{
         display: none;
-    }
-    footer{
-        position: fixed;
     }
 }
 
