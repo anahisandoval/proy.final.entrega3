@@ -20,6 +20,10 @@ header{
 
 footer{
     background: linear-gradient(to left,#025153,#0c6e80,#069297,#4ff378,#8bc408);
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 #logo{
     width: 8em;
